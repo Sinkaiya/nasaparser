@@ -1,7 +1,13 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: sinkaiya
- * Date: 24.11.16
- * Time: 12:54
- */
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>
+
+    </title>
+</head>
+<body>
+
+</body>
+</html>
