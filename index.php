@@ -2,5 +2,4 @@
 require_once ('common.php');
 
 $titles = new parser();
-
-$titles->makeParsedArray();
+print_r ($titles->parsedData);
