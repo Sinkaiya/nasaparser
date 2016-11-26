@@ -42,6 +42,22 @@ class DB
     {
         return $this->link->query ($q);
     }
+
+    public function putIntoDb ($parsedData)
+    {
+        //$titles = new parser();
+        //$arr = $titles->parsedData;
+
+        foreach ($parsedData as $item)
+        {
+            $title = $item['title'];
+            $description = $item['description'];
+            $url = $item['url'];
+            $pubDate = date ('Y-m-d H:i:s', strtotime($item['pubDate']));
+            $uplDate = date('Y-m-d H:i:s');
+            $this->query("INSERT INTO content (title, description, image_url, publication_date, upload_date) VALUES ('$title', '$description', '$url', '$pubDate', '$uplDate')");
+        }
+    }
 }
 
 ?>
