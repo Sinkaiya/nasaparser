@@ -3,7 +3,6 @@ require_once ('../common.php');
 
 class dbupload
 {
-
 	private $rss;
 	private $connection;
 

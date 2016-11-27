@@ -1,4 +1,4 @@
 <?php
 require_once ('common.php');
 
-$titles = new dbupload();
+require_once ('views/table.php');

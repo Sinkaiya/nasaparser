@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/style.css">
     <title>
-
+        RSS-лента NASA
     </title>
 </head>
 <body>
@@ -12,6 +12,9 @@
         <div class="center">
             <h2>RSS-лента NASA</h2>
         </div>
+        <p class="center">
+            <a href="../lib/update.php">Проверить и загрузить обновления</a>
+        </p>
         <div class="table">
 		    <div class="row">
                 <div class="headercell">
@@ -22,6 +25,9 @@
                 </div>
                 <div class="headercell">
                     Title
+                </div>
+                <div class="headercell">
+                    Description
                 </div>
                 <div class="headercell">
                     Publication Date

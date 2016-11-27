@@ -35,7 +35,7 @@ class DB
     public function __destruct()
     {
         $this->link->close();
-        echo 'Соединение с MySQL закрыто.';
+        //echo 'Соединение с MySQL закрыто.';
     }
 
     public function query($q)
