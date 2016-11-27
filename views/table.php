@@ -33,26 +33,7 @@
                     Comments
                 </div>
             </div>
-            <div class="row">
-                <div class="cell">
-                    ID
-                </div>
-                <div class="cell">
-                    Actions
-                </div>
-                <div class="cell">
-                    Title
-                </div>
-                <div class="cell">
-                    Publication Date
-                </div>
-                <div class="cell">
-                    Upload Date
-                </div>
-                <div class="cell">
-                    Comments
-                </div>
-            </div>
+            <?php require_once ('../common.php'); $tbl = new fillTheTable; ?>
         </div>
     </div>
 </body>

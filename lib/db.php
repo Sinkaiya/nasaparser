@@ -21,14 +21,14 @@ class DB
         }
         else
         {
-            echo 'Установлено соединение с MySQL, ';
+            /*echo 'Установлено соединение с MySQL, ';
             if ($result = mysqli_query($this->link, "SELECT DATABASE()"))
             {
                 $row = mysqli_fetch_row($result);
                 printf("подключена БД %s.\n", $row[0]);
                 mysqli_free_result($result);
                 echo '<br><br>';
-            }
+            }*/
         }
     }
 
